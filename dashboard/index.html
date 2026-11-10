@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f4f7f5">
+        <meta name="description" content="SmartWaste monitoring and commissioning dashboard for an ESP32-S3-CAM waste segregation system.">
+        <title>SmartWaste · Waste segregation dashboard</title>
+        <link rel="icon" href="icon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js" defer></script>
+    </head>
+
+<body>
+    <a class="skip" href="#content">Skip to content</a>
+    <aside class="sidebar"><a class="brand" href="#dashboard">
+        <span class="brand-icon" data-icon="recycle"></span>
+        <span>SmartWaste<small>WASTE SEGREGATION</small></span>
+    </a><nav aria-label="Workspace">
+        <div class="nav-heading">MONITORING</div>
+        <a href="#dashboard" data-page="dashboard"><i data-icon="grid"></i>Overview</a>
+        <a href="#activity" data-page="activity"><i data-icon="list"></i>Sorting activity</a>
+        <a href="#notifications" data-page="notifications"><i data-icon="bell"></i>Notifications<span id="badge" hidden></span></a>
+        <div class="nav-heading second">DEVICE TOOLS</div>
+        <a href="#wiring" data-page="wiring"><i data-icon="cpu"></i>Wiring & pins</a>
+        <a href="#setup" data-page="setup"><i data-icon="checklist"></i>Setup checklist</a>
+        <a href="#settings" data-page="settings"><i data-icon="settings"></i>Device settings</a>
+        <a href="#test" data-page="test"><i data-icon="terminal"></i>Connection test</a></nav>
+        <div class="side-foot"><i data-icon="cpu"></i><div><strong id="side-device">ESP32-S3-CAM</strong><small>Waste sorting station</small></div></div></aside>
+<div class="workspace"><header class="topbar"><button id="menu" class="icon-button" aria-label="Toggle navigation" aria-expanded="false" data-icon="menu"></button><span class="crumb">Workspace <span>/</span> <strong id="crumb">Overview</strong></span><div class="top-right"><span id="connection" class="pill mint"><b></b> Simulation mode</span><a class="icon-button" href="#notifications" aria-label="View notifications" data-icon="bell"></a></div></header><main id="content" tabindex="-1"></main><footer>SortCycle <span>·</span> IoT Waste Segregation Lab</footer></div><div id="toast" role="status"></div></body></html>
